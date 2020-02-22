@@ -1,0 +1,177 @@
+img {
+    min-width: 20px;
+    width:1.5%;
+}
+body{
+    padding:0px;
+    margin:0px;
+    font-family:Avenir Next;
+}
+
+h2{
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav{
+    width:100%;
+    text-align:right;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    z-index:10;
+}
+
+nav li{
+    padding-right: 50px;
+    display:inline;
+    font-weight:500;
+}
+
+nav a:hover{
+    font-style: italic;
+    font-weight:500;
+}
+
+.item1 { grid-area: header; 
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom:5%;
+    /* outline:5px solid black; */
+}
+.item2 { grid-area: menu;
+    text-align: center;
+    font-size: 1.5em;
+    /* outline:5px solid black;  */
+}
+.item3 { grid-area: main; 
+    text-align: center;
+    font-size: 1.5em;
+    margin-right:30px;
+    /* outline:5px solid black; */
+}
+.item5 { grid-area: footer; 
+    text-align: center;
+    font-size: 1.5em;
+    /* outline:5px solid black; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'menu main main main';
+  grid-gap: 10px;
+}
+
+#headimage{
+    width:100%;
+}
+
+.textblock{
+    background-color:#fff;
+    position:absolute;
+    top:20%;
+    left: 10%;
+    padding:2%;
+    width:20%;
+    border-radius: 25px;
+}
+
+h3{
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+    color:#000;
+}
+
+p{
+    font-size:.75em;
+}
+
+
+#small{
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:30px;
+}
+#title{
+    text-align:left;
+    margin-left:5%;
+    font-weight:600;
+}
+#imageitem{
+    width:23%;
+    position:relative;
+}
+
+#imageitem img{
+    width:100%;
+}
+
+#imageitem p{
+    text-align:left;
+    margin-left:5%;
+    margin-top:0;
+    margin-bottom:2%;
+    font-size: 0.75em;
+}
+
+
+#left{
+    width:30%;
+    display:inline-block;
+}
+
+#middle{
+    width:30%;
+    display:inline-block;
+}
+
+#right{
+    width:30%;
+    display:inline-block;
+}
+
+#links{
+    text-align:center;
+}
+
+h3{
+    font-family: Avenir Next;
+    font-weight:600;
+    font-size:1em;
+}
+
+ul{
+    text-align:center;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    font-family:Avenir Next;
+    font-weight:400;
+    font-size:1em;
+    padding:5px;
+}
+
+footer{
+    margin-bottom:2%;
+    margin-top:2%;
+}

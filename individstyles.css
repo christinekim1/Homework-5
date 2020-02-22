@@ -1,0 +1,164 @@
+img {
+    min-width: 20px;
+    width:1.5%;
+}
+body{
+    padding:0px;
+    margin:0px;
+    font-family:Avenir Next;
+}
+
+h2{
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav{
+    width:100%;
+    text-align:right;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative fixed;
+    clear:both;
+}
+
+nav li{
+    padding-right: 50px;
+    display:inline;
+    font-weight:500;
+}
+
+nav a:hover{
+    font-style: italic;
+    font-weight:500;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2{
+    margin-right:20%;
+}
+
+.item2 img{
+    width:90%;
+    margin-top:5%;
+    float:left;
+    clear:both;
+}
+
+#less{
+    width:50%;
+    text-align:left;
+}
+
+.item1 img{
+    width:60%;
+    text-align:left;
+}
+
+
+.item3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item3 img{
+    width:15%;
+    padding:2%;
+}
+
+
+#selected{
+    outline: 3px solid coral;
+}
+
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item5 img{
+    width:25%;
+    float:left;
+    margin-left:13%;
+    margin-top:1%;
+    clear:both;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
+
+.item5 #review{
+    margin-top:5%;
+    width: 50%;
+}
+
+#left{
+    width:30%;
+    display:inline-block;
+}
+
+#middle{
+    width:30%;
+    display:inline-block;
+}
+
+#right{
+    width:30%;
+    display:inline-block;
+}
+
+#links{
+    text-align:center;
+}
+
+h3{
+    font-family: Avenir Next;
+    font-weight:600;
+    font-size:1em;
+}
+
+ul{
+    text-align:center;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    font-family:Avenir Next;
+    font-weight:400;
+    font-size:1em;
+    padding:5px;
+}
+
+footer{
+    margin-bottom:2%;
+    margin-top:2%;
+}
