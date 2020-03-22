@@ -48,7 +48,6 @@ nav a:hover{
     display: grid;
     grid-template-columns: 65% 35%;
     grid-gap: 10px;
-    /* background-color: #2196F3; */
     padding: 10px;
 }
 
@@ -73,10 +72,6 @@ nav a:hover{
     text-align:left;
 }
 
-.item1 img{
-    width:60%;
-    text-align:left;
-}
 
 
 .item3{
@@ -108,7 +103,6 @@ nav a:hover{
 }
 
 .grid-container > div {
-background-color: rgba(255, 255, 255, 0.8);
 text-align: center;
 padding: 20px 0;
 font-size: 30px;
@@ -163,11 +157,27 @@ footer{
     margin-top:2%;
 }
 
-.quantity{
+h6 {
     float:left;
-    line-height:0;
-    margin-top: -10%;
-    margin-bottom: -10%;
+    font-weight:300;
+    text-align:left;
+}
+
+#prev{
+    width:25%;
+    float:left;
+    margin-left:10%;
+    padding:0;
+}
+
+h3{
+    float:left;
+    margin-top: 10px;
+}
+
+#lab{
+    margin-left:10%;
+    width:90%;
 }
 
 .minus{
@@ -178,9 +188,58 @@ footer{
     font-weight: 800;
 }
 
-
-h6 {
+#title{
     float:left;
-    font-weight:300;
+    margin-left:5%;
+    width:65%;
+    padding:0;
+    line-height:0;
+    margin-bottom: -3%;
+}
+
+.quantity{
+    float:left;
+    margin-left: 5%;
+    line-height:0;
+    margin-top: -3%;
+}
+
+.lefttext{
+    float:left;
+    display:inline-block;
     text-align:left;
+}
+
+.righttext{
+    float:left;
+    display:inline-block;
+    text-align:left;
+}
+
+#itemdetails{
+    text-align:left;
+}
+
+#details{
+    border-radius: 20px;
+    border: solid black;
+    float: left;
+    width: 75%;
+    padding: 10%;
+}
+
+#itemdetails p{
+    font-size:0.5em;
+    line-height:0.75;
+}
+
+#purchase{
+    width:100%;
+    display:block;
+}
+
+#shoppingitem{
+    width:90%;
+    clear:both;
+    padding-top:5%;
 }

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="cart.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/soz6emm.css">
+	<script src="cart.js"></script>
+	<title>Poufs</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href = "index.html">HOME</a></li>
+            <li><a href = 'shop.html'>SHOP</a></li>
+            <li><a href = 'about.html'>ABOUT</a></li>
+            <li><a href = 'contact.html'>CONTACT</a></li>
+            <li><a href = '#'><img src = 'search.png'></a></li>
+            <li><a href = '#'><img id = 'cart' src = 'addedToCart.png'></a></li>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <div class="item1">
+            <div id = 'shoppingitem'>
+                <img id = 'prev' src = 'mainphoto.png'>
+                <div id = 'lab'>
+                    <div id = 'title'><h6>Leather Morrocan Pouf</h6></div>
+                    <div class = 'quantity' id = 'first'>
+                        <h6>Quantity:&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'minus' id = 'minusFirst' onClick="decrementValueFirst()">--&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'amount' id = 'amountFirst'>1&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'plus' id = 'plusFirst' onClick="incrementValueFirst()">+</h6>
+                    </div>
+                </div>
+            </div>  
+            <div id = 'shoppingitem'>
+                <img id = 'prev' src = 'prev2.png'>
+                <div id = 'lab'>
+                    <div id = 'title'><h6>Pouf Deluxe</h6></div>
+                    <div class = 'quantity' id = 'second'>
+                        <h6>Quantity:&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'minus' id = 'minusSecond' onClick="decrementValueSecond()">--&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'amount' id = 'amountSecond'>1&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'plus' id = 'plusSecond' onClick="incrementValueSecond()">+</h6>
+                    </div>
+                </div>
+            </div>   
+            <div id = 'shoppingitem'>
+                <img id = 'prev' src = 'prev3.png'>
+                <div id = 'lab'>
+                    <div id = 'title'><h6>Designer Pillow</h6></div>
+                    <div class = 'quantity' id = 'third'>
+                        <h6>Quantity:&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'minus' id = 'minusThird' onClick="decrementValueThird()">--&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'amount' id = 'amountThird'>1&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                        <h6 class = 'plus' id = 'plusThird' onClick="incrementValueThird()">+</h6>
+                    </div>
+                </div>
+            </div>   
+
+        </div>
+        <div class="item2">
+            <div id = 'details'>
+                <div id = 'itemdetails'>
+                    <p>Leather Moroccan Pouf</p>
+                    <p class = 'lefttext'>Quantity:&nbsp;&nbsp;&nbsp;</p><p class = 'righttext' id = 'checkoutFirst'>1</p><br>
+                    <p id = 'priceFirst'>$45.99</p>
+                </div><br>
+                <div id = 'itemdetails'>
+                    <p>Leather Moroccan Pouf</p>
+                    <p class = 'lefttext'>Quantity:&nbsp;&nbsp;&nbsp;</p><p class = 'righttext' id = 'checkoutSecond'>1</p><br>
+                    <p id ='priceSecond'>$45.99</p>
+                </div><br>
+                <div id = 'itemdetails'>
+                    <p>Leather Moroccan Pouf</p>
+                    <p class = 'lefttext'>Quantity:&nbsp;&nbsp;&nbsp;</p><p class = 'righttext' id = 'checkoutThird'>1</p><br>
+                    <p id = 'priceThird'>$45.99</p>
+                </div><br>
+                <hr>
+                <div id = 'itemdetails'>
+                    <p id = 'subtotal'>Subtotal: $135.99</p>
+                </div>
+                <img id = 'purchase' src = 'purchase.png'>
+            </div>
+        </div>
+        <div class="item3">
+        </div>  
+        <div class="item4">
+        </div>
+        <div class="item5">
+        </div>
+    </div>
+</body>

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<link href="individstyles.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/soz6emm.css">
+	<script src="individjs.js"></script>
 	<title>Poufs</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <li><a href = 'about.html'>ABOUT</a></li>
             <li><a href = 'contact.html'>CONTACT</a></li>
             <li><a href = '#'><img src = 'search.png'></a></li>
-            <li><a href = '#'><img src = 'shop.png'></a></li>
+            <li><a href = 'cart.html'><img id = 'cart' src = 'shop.png'></a></li>
         </nav>
     </header>
     <div class="grid-container">
@@ -23,10 +24,16 @@
         </div>
         <div class="item2">
             <img src = 'Group 65.png'>
-            <img src = "Group 64.png">
-            <img id = "less" src = 'Group 62.png'>
+			<div class = 'quantity' id = 'third'>
+				<h6>Quantity:&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+				<h6 class = 'minus' id = 'minusThird' onClick="decrementValueThird()">--&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+				<h6 class = 'amount' id = 'amountThird'>1&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+				<h6 class = 'plus' id = 'plusThird' onClick="incrementValueThird()">+</h6>
+			</div>
+			<img id = "less" src = 'small.png' onclick = 'changeSize()'>
             <img src = "Group 63.png">
-            <img src = "Group 39.png">
+			<img id = 'add' src = "Group 39.png" onclick = "changeImage()">
+			
         </div>
         <div class="item3">
             <img src = 'Rectangle 15.png'>
